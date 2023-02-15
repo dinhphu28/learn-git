@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button id="toggle-btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+        Show modal
+    </button>
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Knowledge</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Ordinal</th>
+                                <th>Title</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">1</td>
+                                <td>Answered</td>
+                                <td>Đã trả lời</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">2</td>
+                                <td>NoAnswer</td>
+                                <td>Không trả lời</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3</td>
+                                <td>Busy</td>
+                                <td>Số máy bận</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">4</td>
+                                <td>Denied</td>
+                                <td>KH từ chối</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">5</td>
+                                <td>Error Sip</td>
+                                <td>Lỗi nhà mạng</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">6</td>
+                                <td>Congestion</td>
+                                <td>Nghẽn mạng</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // $('#myModal').modal('toggle');
+        const toggleBtn = document.getElementById("toggle-btn");
+
+        toggleBtn.addEventListener("click", () => {
+            $('#myModal').modal('toggle');
+        });
+    </script>
+</body>
+
+</html>

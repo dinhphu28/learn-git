@@ -1,0 +1,26 @@
+From 2b0a908d146fdf260ea58818e90147c75fd33ad2 Mon Sep 17 00:00:00 2001
+From: Anthony <18110175@student.hcmute.edu.vn>
+Date: Fri, 3 Mar 2023 09:49:06 +0700
+Subject: [PATCH 06/22] =?UTF-8?q?Update=20Abc14.md=20Co-Authored-By:=20Ant?=
+ =?UTF-8?q?hony=20Nguy=E1=BB=85n=20<55154448+NDP-Anthony@users.noreply.git?=
+ =?UTF-8?q?hub.com>?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ Abc14.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/Abc14.md b/Abc14.md
+index b52ff15..ea159d4 100644
+--- a/Abc14.md
++++ b/Abc14.md
+@@ -10,3 +10,4 @@ README.md
+ README.md
+ README.md
+ README.md
++README.md
+-- 
+2.32.0 (Apple Git-132)
+

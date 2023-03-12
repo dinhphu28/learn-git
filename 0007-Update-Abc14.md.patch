@@ -1,0 +1,21 @@
+From 946fb7ed498486cdc69dc0f2d40085ad3f0022da Mon Sep 17 00:00:00 2001
+From: Anthony <18110175@student.hcmute.edu.vn>
+Date: Fri, 3 Mar 2023 09:52:00 +0700
+Subject: [PATCH 07/22] Update Abc14.md
+
+---
+ Abc14.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/Abc14.md b/Abc14.md
+index ea159d4..029bedc 100644
+--- a/Abc14.md
++++ b/Abc14.md
+@@ -11,3 +11,4 @@ README.md
+ README.md
+ README.md
+ README.md
++README.md
+-- 
+2.32.0 (Apple Git-132)
+

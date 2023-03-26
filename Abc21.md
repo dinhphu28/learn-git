@@ -1,3 +1,0 @@
-README.md
-README 2 21
-ttt 2

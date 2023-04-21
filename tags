@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-f>	init.vim	/^nnoremap <C-f> :NERDTreeFocus<CR>$/;"	m
+<C-n>	init.vim	/^nnoremap <C-n> :NERDTree<CR>$/;"	m
+<C-t>	init.vim	/^nnoremap <C-t> :NERDTreeToggle<CR>$/;"	m
+<F8>	init.vim	/^nmap <F8> :TagbarToggle<CR>$/;"	m
+Program	main.java	/^class Program {$/;"	c
+g:NERDDefaultAlign	init.vim	/^let g:NERDDefaultAlign = 'left'$/;"	v
+g:NERDTreeDirArrowCollapsible	init.vim	/^let g:NERDTreeDirArrowCollapsible="~"$/;"	v
+g:NERDTreeDirArrowExpandable	init.vim	/^let g:NERDTreeDirArrowExpandable="+"$/;"	v
+g:NERDTreeGitStatusIndicatorMapCustom	init.vim	/^let g:NERDTreeGitStatusIndicatorMapCustom = {$/;"	v
+g:NERDTreeGitStatusUntrackedFilesMode	init.vim	/^let g:NERDTreeGitStatusUntrackedFilesMode = 'all'$/;"	v
+g:NERDTreeGitStatusUseNerdFonts	init.vim	/^let g:NERDTreeGitStatusUseNerdFonts = 1$/;"	v
+g:NERDTreeHighlightFolders	init.vim	/^let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match$/;"	v
+g:NERDTreeHighlightFoldersFullName	init.vim	/^let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name$/;"	v
+g:airline_left_alt_sep	init.vim	/^let g:airline_left_alt_sep = ''$/;"	v
+g:airline_left_sep	init.vim	/^let g:airline_left_sep = ''$/;"	v
+g:airline_powerline_fonts	init.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:airline_right_alt_sep	init.vim	/^let g:airline_right_alt_sep = ''$/;"	v
+g:airline_right_sep	init.vim	/^let g:airline_right_sep = ''$/;"	v
+g:airline_symbols	init.vim	/^    let g:airline_symbols = {}$/;"	v
+g:airline_symbols	init.vim	/^let g:airline_symbols.branch = ''$/;"	v
+g:airline_symbols	init.vim	/^let g:airline_symbols.linenr = ''$/;"	v
+g:airline_symbols	init.vim	/^let g:airline_symbols.readonly = ''$/;"	v
+main	abc.cpp	/^int main() {$/;"	f
+main	main.java	/^	public static void main(String[] args) {$/;"	m	class:Program
+sum	main.java	/^	private static int sum(int a, int b) {$/;"	m	class:Program	file:
